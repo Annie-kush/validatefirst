@@ -1,0 +1,19 @@
+{
+  "name": "validatefirst",
+  "version": "1.0.0",
+  "description": "Test demand for a business idea before building it. Agentic idea validation powered by Claude and GoDaddy.",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "build": "echo build",
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
